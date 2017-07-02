@@ -1,0 +1,17 @@
+/* Gray Scale */
+.new-effect-box img {
+	-webkit-filter: grayscale(100%)  blur(3px);
+	filter: grayscale(100%)  blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.new-effect-box:hover img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+}
+
+
+.portfolio-grid .row > div .card:hover .portfolio-over {
+    opacity: 0;
+    visibility: visible;
+}
